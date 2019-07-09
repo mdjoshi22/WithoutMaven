@@ -7,4 +7,5 @@ public class Repository {
 	public static String pwd = "password";
 	public static String login = "login";
 	public static String logOut = "//a[text()='SIGN-OFF']";
+	public static String path = "E:\\workspaceNew\\cgi\\src\\main\\java\\resources\\conf.properties";
 }

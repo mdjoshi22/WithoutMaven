@@ -26,7 +26,7 @@ public class Base {
 	@BeforeTest
 	public WebDriver initializeDriver() throws IOException {
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("E:\\workspaceNew\\cgi\\src\\main\\java\\resources\\conf.properties");
+		FileInputStream fis = new FileInputStream(Repository.path);
 		prop.load(fis);                            
 		String browserName = prop.getProperty("browser");
 
